@@ -6,7 +6,7 @@ from telethon import TelegramClient
 from decouple import config
 import logging
 import time
-from config import APP_ID, API_HASH, BOT_TOKEN
+from Test.config import APP_ID, API_HASH, BOT_TOKEN
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
