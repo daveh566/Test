@@ -1,4 +1,4 @@
-import os
+import os environ
 
 API_ID = int(environ.get("API_ID", 6))
 API_HASH = os.getenv("API_HASH")
