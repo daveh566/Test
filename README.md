@@ -1,4 +1,4 @@
-# Telethon Bot
+# Test Bot
 Simple base used to make a Telegram Bot in [Telethon](https://github.com/LonamiWebs/Telethon).
    
 Join [@KayaspirerProject](https://t.me/KayAspirerProject)!
