@@ -1,3 +1,5 @@
+import os
+from decouple import Config
 class Config(object):
     """
     Configuratoins of `tgEasy`.
