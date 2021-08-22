@@ -1,11 +1,3 @@
-import os
-from prettyconf import Configuration
-from prettyconf.loaders import Environment, EnvFile
-
-env_file = f"{os.getcwd()}/.env"
-config = Configuration(loaders=[Environment(), EnvFile(filename=env_file)])
-
-
 class Config(object):
     """
     Configuratoins of `tgEasy`.
