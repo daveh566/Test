@@ -13,12 +13,12 @@
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",
-            "value": ""
+            "value": "",
             "required": false
         },
         "APP_ID": {
             "description": "You API ID from my.telegram.org",
-            "value": ""
+            "value": "",
             "required": false
         },
         "BOT_TOKEN": {
