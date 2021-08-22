@@ -1,9 +1,13 @@
 import os
-from decouple import Config
-class Config(object):
-    """
-    Configuratoins of `tgEasy`.
-    """
-    API_ID = config("API_ID")
-    API_HASH = config("API_HASH")
-    BOT_TOKEN = config("BOT_TOKEN")
+
+from heroku3 import from_key
+from pyrogram import Client
+
+API_ID = int(os.environ.get("API_ID", "6"))
+API_HASH = os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+
+bot = Client(":memory:",
+             api_id=API_ID,
+             api_hash=API_HASH,
+             bot_token=BOT_TOKEN
